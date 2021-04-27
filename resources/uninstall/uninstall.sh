@@ -11,7 +11,7 @@ echo "User panel theme has been uninstalled."
 echo "Uninstalling admin theme..."
 cd /var/www/pterodactyl/resources/views/layouts/
 rm -rf admin.blade.php
-wget https://raw.githubusercontent.com/DeveloperNeon/ptero-1.0-theme-install/main/resources/uninstall/admin.blade.php
+wget https://raw.githubusercontent.com/WeLikeToCodeStuff/ptero-1.0-theme-install/edit/main/resources/uninstall/admin.blade.php
 npm install yarn -g
 yarn install
 yarn add @emotion/react
